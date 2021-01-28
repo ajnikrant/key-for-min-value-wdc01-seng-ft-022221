@@ -3,7 +3,7 @@
 # require 'pry'
 
 def key_for_min_value(name_hash)
-  lowest_item = 
+  # lowest_item =
   min_val= 300
 
   name_hash.each do |key, value|
@@ -14,5 +14,5 @@ def key_for_min_value(name_hash)
     end
 
   end
-  lowest_item
+  # lowest_item
 end
