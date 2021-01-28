@@ -9,9 +9,9 @@ def key_for_min_value(name_hash)
     if value < min_val
       lowest_item = key
       min_val = value
-      # binding.pry
+      #  binding.pry
     end
 
   end
-  lowest_item
+  # lowest_item
 end
