@@ -6,11 +6,10 @@ def key_for_min_value(name_hash)
   lowest_item = ""
   min_val= 300
 
+  if name_hash.empty?
+    return nil
   name_hash.each do |key, value|
-    if name_hash.empty?
-      return nil
-
-    elsif value < min_val
+    if value < min_val
       lowest_item = key
       min_val = value
       #  binding.pry
